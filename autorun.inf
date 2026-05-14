@@ -1,5 +1,0 @@
-[autorun]
-open=extract_pc_info.bat
-label=PC Serial Number Detector
-icon=extract_pc_info.bat,0
-action=Run PC Information Extractor

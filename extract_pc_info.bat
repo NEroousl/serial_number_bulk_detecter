@@ -22,6 +22,7 @@ set "mytime=%hour%:%minute%:%second%"
 
 REM Get PC information
 set "PCName=%COMPUTERNAME%"
+set "Author=Malinda Vitharana"
 
 REM Get Serial Number using PowerShell/CIM (WMIC is deprecated)
 for /f "usebackq delims=" %%A in (`powershell -NoProfile -Command "(Get-CimInstance Win32_BIOS -ErrorAction SilentlyContinue).SerialNumber"`) do set "SerialNumber=%%A"
@@ -53,6 +54,7 @@ echo Model         : %Model%
 echo.
 echo Date          : %mydate%
 echo Time          : %mytime%
+echo Software by   : %Author%
 echo.
 echo ============================================
 echo Log File      : %TextFile%
@@ -65,6 +67,7 @@ if not exist "%TextFile%" (
     (
         echo PC INFORMATION LOG REPORT
         echo Generated: %mydate% %mytime%
+        echo Software by: %Author%
         echo Total PCs: 0
         echo.
         echo ============================================================================
