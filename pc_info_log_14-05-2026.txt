@@ -1,9 +1,0 @@
-PC INFORMATION LOG REPORT
-Generated: 14-05-2026 15:22:35
-Total PCs: 3
-============================================================================
-Date       | Time     | PC Name                    | Serial Number        | Model
-============================================================================
-14-05-2026 | 15:22:35 | DESKTOP-UF05LB5            | N/A                  | N/A
-14-05-2026 | 15:25:52 | DESKTOP-UF05LB5            | PC1CYQC9             | 10SRS4YG00
-14-05-2026 | 15:30:29 | DESKTOP-UF05LB5            | PC1CYQC9             | 10SRS4YG00
